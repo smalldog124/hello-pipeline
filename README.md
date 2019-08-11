@@ -47,3 +47,10 @@ ng build
 ```
 ng serve
 ```
+
+## Build Docker
+```
+docker build -t web:1.0 .
+
+docker run --name web -p 8000:4200 -d web:1.0
+```
